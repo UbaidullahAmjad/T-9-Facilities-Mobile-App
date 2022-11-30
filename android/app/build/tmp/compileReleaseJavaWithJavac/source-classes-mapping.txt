@@ -1,0 +1,9 @@
+com/t9_facilities/BuildConfig.java
+ com.t9_facilities.BuildConfig
+com/t9_facilities/MainApplication.java
+ com.t9_facilities.MainApplication
+ com.t9_facilities.MainApplication$1
+com/t9_facilities/MainActivity.java
+ com.t9_facilities.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

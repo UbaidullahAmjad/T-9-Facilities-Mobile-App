@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.t9_facilities"
+4    android:versionCode="5"
+5    android:versionName="5.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <!-- android:windowSoftInputMode="adjustResize" -->
+13    <application
+13-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:8:5-26:19
+14        android:name="com.t9_facilities.MainApplication"
+14-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:9:7-38
+15        android:allowBackup="false"
+15-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:13:7-34
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\2780a7d58323a095a84203f45c645c6e\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:11:7-41
+18        android:label="@string/app_name"
+18-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:10:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:12:7-52
+20        android:theme="@style/AppTheme" >
+20-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:14:7-38
+21        <activity
+21-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:15:7-25:18
+22            android:name="com.t9_facilities.MainActivity"
+22-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:16:9-37
+23            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+23-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:18:9-86
+24            android:label="@string/app_name"
+24-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:17:9-41
+25            android:launchMode="singleTask"
+25-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:19:9-40
+26            android:windowSoftInputMode="stateVisible|adjustPan" >
+26-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:20:9-61
+27            <intent-filter>
+27-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:21:9-24:25
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:22:13-65
+28-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:22:21-62
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:23:13-73
+30-->D:\Freelancing Projects\T9 Facilities Project\T9 Facilities Project\T9 Fcailities\t9_facilities\android\app\src\main\AndroidManifest.xml:23:23-70
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>

@@ -1,0 +1,4 @@
+#Tue Nov 29 18:26:23 PKT 2022
+base.0=D\:\\Freelancing Projects\\T9 Facilities Project\\T9 Facilities Project\\T9 Fcailities\\t9_facilities\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
